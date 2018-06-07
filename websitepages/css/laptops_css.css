@@ -1,0 +1,30 @@
+.container1{
+	height:2100px;
+	width:100%;
+}
+
+
+.box{
+	height:200px;
+	width: 100%;
+	border: 1px solid green; 
+}
+
+.img1{
+	position: relative;
+  	top: 5px;
+  	left: 5px;
+  	bottom: 5px;
+  	right: 7px;
+  	height:90%;
+  	width:30% ;
+  	float: left;
+}
+
+.txt{
+	float: right;
+	height: 200px;
+	width: 65%;
+	text-align: left;
+	color: green;
+}

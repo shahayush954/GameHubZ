@@ -1,0 +1,24 @@
+.box1{
+	text-align: center;
+	color: green;
+}
+
+.txt{
+	text-align: justify;
+	color: green;
+}
+
+.img1{
+	height: :120px;
+	width: 120px;
+}
+
+figcaption{
+	color: green;
+	text-align: center;
+}
+
+.img2{
+	height: 50px;
+	widows: 50px;
+}

@@ -1,0 +1,16 @@
+#btn-1{
+	height:65px;
+	width:200px;
+	background-color:green;
+	font-size:20px;
+	border-radius:25px;
+}
+
+#add{
+	vertical-align:top;
+	
+}
+
+#gender{
+	text-align:left;
+}

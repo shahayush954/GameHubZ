@@ -1,0 +1,32 @@
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			
+			function fadein(){
+				$("font").fadeOut(1000);
+				fadeout();
+			}
+			
+			function fadeout(){
+				$("font").fadeIn(1000);
+				fadein();
+			}
+			fadein();
+		});
+			
+	</script>
+</head>
+<body bgcolor="black" align="center" link="green" vlink="green">
+<img src="images/Logo.png" width="220" height="190" align="left">
+<font face="Goudy Stout" color="green" size=7 id="action1">
+<br>
+GameHubZ
+<br>
+</font>
+<font face="Goudy Stout" color="green" size=5 id="action2">
+A Shop to Support your GAMES
+</font>
+</body>
+</html>

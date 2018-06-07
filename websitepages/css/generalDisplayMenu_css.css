@@ -1,0 +1,72 @@
+.imgmenu1{
+	height: 500px;
+	width: 15%;
+	display: inline-block;
+}
+
+.imgs{
+	height: 110px;
+	width: 100%;
+	border: 1px solid green;
+	display: inline-block;
+}
+
+.imgdisplay{
+	height: 446px;
+	width: 69%;
+	border: 1px solid green;
+	display: inline-block;
+	vertical-align: top;
+}
+.imgmenu2{
+	height: 500px;
+	width: 15%;
+	float: right;
+	display: inline-block;
+}
+
+.smallimg{
+	position: relative;
+	top: 5px;
+	left: 5%;
+	right: 5%;
+	height: 100px;
+	width: 90%;
+}
+
+.bigimg{
+	padding-top: 20px;
+	height: 406px;
+	width: 95%;
+}
+
+.description{
+	height:500px;
+	width:100%;
+	color: green;
+}
+
+.specs{
+	height: 790px;
+	width: 30%;
+	border: 1px solid green;
+	float:right;
+	text-align: justify;
+	color: green;
+}
+
+.head{
+	height: 50px;
+	width: 100%;
+	text-align: center;
+	color: black;
+	background-color: green;
+}
+
+.btn{
+	height:65px;
+	width:200px;
+	background-color:green;
+	font-size:20px;
+	border-radius: 25px;
+}

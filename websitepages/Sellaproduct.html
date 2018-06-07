@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sell A Product</title>
+	<link rel="stylesheet" type="text/css" href="css/sellaproduct_css.css">
+</head>
+<body bgcolor="black" text="green" align="center">
+	<div class="head">
+		<h1>Please Fill the Below form to create a Advertisement of your Product</h1>
+	</div>
+	<br>
+	<br>
+	<form name="sell">
+		<fieldset>
+			<legend>Product Details</legend>
+			<label>Product Name: </label><input type="text" name="pname">
+			<br>
+			<br>
+			<label>Model No: </label><input type="text" name="pmodel">
+			<br>
+			<br>
+			<label>Category: </label><select name="category">
+				<option value="">Select an Option</option>
+				<option value="laptop">Laptop</option>
+				<option value="graphiccard">Graphic Card</option>
+				<option value="computer">Computer</option>
+				<option value="controller">Controller</option>
+				<option value="headphone">HeadPhones</option>
+				<option value="speaker">Speaker</option>
+				<option value="mouse">Mouse</option>
+				<option value="other">Other</option>
+			</select>
+		</fieldset>
+		<br>
+		<br>
+		<fieldset>
+			<legend>Product Selling Details</legend>
+			<label>Amount of Use: </label><input type="text" name="age">
+			<br>
+			<br>
+			<label>Any Damage Happened to Product? </label><select name="damage">
+				<option value="">Select an Option</option>
+				<option value="yes">YES</option>
+				<option value="no">NO</option>
+			</select>
+			<br>
+			<br>
+			<label>Is the Product still under Guarantee? </label><select name="gurantee">
+				<option value="">Select an Option</option>
+				<option value="yes">YES</option>
+				<option value="no">NO</option>
+			</select>
+			<br>
+			<br>
+			<label>Choose a Price for your Product: </label><input type="text" name="price">
+		</fieldset>
+		<br>
+		<br>
+		<fieldset>
+			<legend>Contact Details</legend>
+			<label>Mobile No.: </label><input type="text" name="pmobile">
+			<br>
+			<br>
+			<label>Alternate Mobile No.: </label><input type="text" name="palt">
+			<br>
+			<br>
+			<label>Email ID: </label><input type="text" name="email">
+		</fieldset>
+	</form>
+	<br>
+	<br>
+	<div class="box">
+		<h1>Upload Images of your Product</h1>
+		<div class="smallbox">
+			<a href="#" style="text-decoration:none;">Upload Image!</a>
+		</div>
+		<div class="smallbox">
+			<a href="#" style="text-decoration:none;">Upload Image!</a>
+		</div>
+   		<div class="smallbox">
+   			<a href="#" style="text-decoration:none;">Upload Image!</a>
+		</div>
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<button class="btn" onclick="return validate()">Create Advertisement</button>
+	<script type="text/javascript" src="javascript/sellaproduct_js.js"></script>
+</body>
+</html>
